@@ -20,7 +20,6 @@ void writeTestSer()
     CLR_SFRBIT(P3.10); // emission start
     WAIT_UNTIL_BIT_SET(S0TIR);
     SET_SFRBIT(P3.10); // emission etat repos
-
 }
 
 // main :
