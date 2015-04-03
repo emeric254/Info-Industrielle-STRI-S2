@@ -18,11 +18,12 @@ void setup()
 
 void loop()
 {
-
+    /**
     if(digitalRead(4)==LOW) // car front descendant sur appui si bouton entre gnd et broche 4
         digitalWrite(13,HIGH);
     else
         digitalWrite(13,LOW);
+    **/
 
     delay(20); // on evite le rebond avec ce delay suffisant mais surement pas minimum
 }
